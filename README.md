@@ -2,7 +2,7 @@
 Get air quality data for Poland from Chief Inspectorate Of Environmental Protection (GIOŚ) monitoring network
 
 ## Detailed description
-Sketch to get air quality data via JSON file parsing. Measurement results from selected stations are then saved to file.
+Get air quality data via JSON file parsing ([link](http://api.gios.gov.pl/pjp-api/rest/station/findAll)). PM2.5 and PM10 values from cities present in **selected_cities** list are saved to file **airQData.txt**.
 
 ## Dependencies
-TODO
+Only Python 3 is needed.
